@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #4e87ad;
+    background-color: #000000;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
     max-width: 275px;
     padding: 40px;
     border-radius: 20px;
-    background-color: #1a597c;
+    background-image: url(./imag-backGroud.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,6 +32,10 @@ body {
     height: 70px;
     border-radius: 50px;
     margin: 15px;
+
+    :hover {
+        border: 3px solid #1a1a1a;
+    }
 }
 
 .card h3 {
@@ -55,4 +59,8 @@ body {
 
 .card .ico a {
     text-decoration: none;
+
+    :hover {
+        translate: 0 -3px;
+    }
 }
