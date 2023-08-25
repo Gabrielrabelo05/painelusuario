@@ -40,11 +40,14 @@ body {
 
 .card h3 {
     margin: 10px;
+    color: white;
 }
 
 .card p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
+    color: white;
+    text-align: center;
 }
 
 .card .ico {
